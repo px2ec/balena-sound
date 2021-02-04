@@ -1,4 +1,22 @@
 - commits:
+    - subject: 'upnp: Use gmrender-resurrect in place of gmrender'
+      hash: 78b9cc58a1f1000f9eb635c12b6fd32192a05e0c
+      body: |
+        Ubuntu packages
+            https://github.com/hzeller/gmrender-resurrect
+        an updated more stable fork of gmrender
+      footer:
+        Connects-to: '#342'
+        connects-to: '#342'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: jody@gnome.org
+        signed-off-by: jody@gnome.org
+      author: Jody Goldberg
+      nested: []
+  version: 3.5.1
+  date: 2021-02-04T03:07:37.993Z
+- commits:
     - subject: Update balena.yml to adhere to new spec
       hash: a4e65939bfbf3c869bf77cdb47d94dc2dbe4ba2d
       body: ''
