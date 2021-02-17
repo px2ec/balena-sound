@@ -2,5 +2,6 @@ FROM balenablocks/audio:%%BALENA_MACHINE_NAME%%
 
 WORKDIR /usr/src
 COPY . .
+COPY asound.conf /etc/
 
 CMD [ "/bin/bash", "/usr/src/start.sh" ]
